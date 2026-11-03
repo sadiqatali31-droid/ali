@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insaniyat Help | Support Together</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-mark">♥</span><span>Insaniyat<span class="brand-light">Help</span></span></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#help">How to Help</a>
+      <a class="nav-button" href="#register">Register for Help</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow">KINDNESS MAKES A DIFFERENCE</span>
+        <h1>Together, we can make life <em>better.</em></h1>
+        <p>We connect people who need a helping hand with kind people who want to support their community.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#register">Request Help</a>
+          <a class="button outline" href="#help">I Want to Help</a>
+        </div>
+        <div class="small-note">A little help can bring a big smile.</div>
+      </div>
+      <div class="hero-art" aria-label="Community helping one another">
+        <div class="sun"></div>
+        <div class="art-card">
+          <div class="people">
+            <span>👩🏻</span><span>👨🏽</span><span>👵🏽</span>
+          </div>
+          <div class="heart">♥</div>
+          <h3>Care • Share • Support</h3>
+          <p>Helping hands build stronger communities.</p>
+        </div>
+        <div class="floating f-one">🤝</div>
+        <div class="floating f-two">💚</div>
+      </div>
+    </section>
+
+    <section class="values" id="about">
+      <div><span class="value-icon">🤲</span><h3>Respect for Everyone</h3><p>Every person deserves kindness and dignity.</p></div>
+      <div><span class="value-icon">🏠</span><h3>Community Support</h3><p>Connect local people with useful support.</p></div>
+      <div><span class="value-icon">🌱</span><h3>Hope for Tomorrow</h3><p>Small acts of care can create lasting change.</p></div>
+    </section>
+
+    <section class="help-section" id="help">
+      <div class="section-heading">
+        <span class="eyebrow">GET INVOLVED</span>
+        <h2>There are many ways to help</h2>
+        <p>Choose a simple way to make a positive difference.</p>
+      </div>
+      <div class="help-cards">
+        <article class="help-card"><div class="card-emoji">🥘</div><h3>Food Support</h3><p>Help families access essential food and groceries.</p></article>
+        <article class="help-card"><div class="card-emoji">📚</div><h3>Education</h3><p>Support school supplies, books, and learning.</p></article>
+        <article class="help-card"><div class="card-emoji">👕</div><h3>Clothes & Essentials</h3><p>Share clean clothes and everyday necessities.</p></article>
+      </div>
+    </section>
+
+    <section class="register-section" id="register">
+      <div class="register-intro">
+        <span class="eyebrow">WE ARE HERE FOR YOU</span>
+        <h2>Request support</h2>
+        <p>Fill in this simple form. Please share only the information needed for someone to contact you.</p>
+        <div class="privacy-note"><span>🔒</span><span>Your information should be handled privately. This sample website does not send or save form entries online.</span></div>
+      </div>
+      <form id="helpForm" class="form-card">
+        <h3>Free Help Registration</h3>
+        <p class="form-subtitle">Fields marked * are required.</p>
+        <label for="name">Your name *</label>
+        <input id="name" name="name" type="text" placeholder="Enter your name" required maxlength="80">
+        <label for="phone">Phone number *</label>
+        <input id="phone" name="phone" type="tel" placeholder="03XX XXXXXXX" required maxlength="20">
+        <label for="city">City / Area *</label>
+        <input id="city" name="city" type="text" placeholder="Your city or area" required maxlength="80">
+        <label for="need">What kind of help do you need? *</label>
+        <select id="need" name="need" required>
+          <option value="">Select support</option>
+          <option>Food / Groceries</option>
+          <option>Education</option>
+          <option>Clothes</option>
+          <option>Medical assistance</option>
+          <option>Other basic needs</option>
+        </select>
+        <label for="details">Short message (optional)</label>
+        <textarea id="details" name="details" rows="3" placeholder="Tell us briefly about your request" maxlength="500"></textarea>
+        <button class="button primary submit-button" type="submit">Submit Registration</button>
+        <p id="formMessage" class="form-message" role="status"></p>
+      </form>
+    </section>
+
+    <section class="join-banner">
+      <div><span class="eyebrow">BE SOMEONE'S REASON TO SMILE</span><h2>Kindness starts with us.</h2></div>
+      <a class="button white-button" href="#register">Get Started</a>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">♥</span><span>Insaniyat<span class="brand-light">Help</span></span></a>
+    <p>Made with care for a kinder community.</p>
+    <small>Demo website • Created by Amjad Ali ChinjnI</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
